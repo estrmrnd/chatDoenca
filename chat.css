@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.headerChat{
+    display: flex;
+    height: 126px;
+    background: #ABD1FF6E;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logoSemNome{
+    width: 60px;
+    height: 60px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: #121417;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.caixaTextoAzul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    gap: 12px;
+    margin-right: 10%;
+}
+
+img.fotoAluno{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.containerMensagemUm {
+    display: flex;
+    flex-direction: column;
+}
+
+p.alunoUm {
+    margin-left: 86%;
+    margin-bottom: 1%;
+    color: #637587;
+    font-size: 0.85rem;
+}
+
+p.mensagemUm{
+    background-color: #1A80E5;
+    color: white;
+    width: 581px;
+    height: 72px;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+.caixaTextoCinza{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 12px;
+    margin-left: 10%;
+}
+
+.containerMensagemDois{
+    display: flex;
+    flex-direction: column;
+}
+
+p.alunoDois{
+    margin-bottom: 1%;
+    color: #637587;
+    font-size: 0.85rem;
+}
+
+p.mensagemDois {
+    max-width: 360px;
+    width: 297px;
+    height: 48px;
+    border-radius: 12px;
+    padding: 12px 16px;
+    background-color: #f0f2f5;
+    color: #121417;
+}
+
+.containerEnviarMensagem{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20%;
+}
+
+img.fotoMensagem{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.caixaEnvioMensgem {
+    background-color: #F0F2F5;
+    height: 48px;
+    width: 1104px;
+    padding: 8px 8px 8px 16px;
+    border-radius: 12px;
+}
+
+textarea {
+    resize: none;
+    background-color: #F0F2F5;
+    border: none;
+    width: 100%;
+    outline-style: none;
+}
+
+@media (max-width: 767px){
+
+    .headerChat{
+        height: 84px;
+    }
+    a{
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    .caixaTextoAzul{
+        justify-content: center;
+        margin-right: 0;
+        gap: 16px;
+    }
+
+    p.alunoUm{
+        font-size: 0.75rem;
+    }
+
+    p.mensagemUm{
+        width: 306px;
+        height: 96px;
+    }
+
+    .caixaTextoCinza{
+        margin: 16px 10px;
+        gap: 16px;
+    }
+
+    .containerEnviarMensagem{
+        margin: 80% 3% 0;
+        align-items: center;
+    }
+
+
+
+
+}
+
+

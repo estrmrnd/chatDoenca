@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.logoContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: #abd1ff;
+    width: 57vw;
+    height: 100vh;
+}
+
+.headerMob{
+    display: none;
+}
+
+h2{
+    text-align: center;
+    color: #121417;
+}
+
+.cardContentArea{
+    margin-top: 21px;
+}
+
+.login{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 43vw;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+.usuario{
+    width: 300px;
+    height: 56px;
+    border-radius: 10px;
+    border:1px solid #dbe0e5;
+    padding: 0 16px;
+}
+
+.password{
+    width: 300px;
+    height: 56px;
+    border-radius: 10px;
+    border:1px solid #dbe0e5;
+    padding: 0 16px;
+}
+
+.eyePassword{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 49.5%;
+    right: 12.5%;
+}
+
+.btnForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    gap: 12px;
+}
+
+.btnLogin{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    background-color: #1A80E5;
+    color: white;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.btnCreate{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    background-color: #f0f2f5;
+    color: #121417;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 490px){
+    .eyePassword{
+        top:39.5%;
+    }
+}
+
+
+@media (max-width: 767px){
+    .logoContainer{
+        display: none;
+    }
+
+    .headerMob{
+        display: flex;
+        align-items: flex-start;
+        height: 48px;
+        background-color: white;
+    }
+
+    .setaVoltar{
+        width: 30px;
+        height: 30px;
+        margin: 20px 10px;
+    }
+
+    .card{
+        justify-content: normal;
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .usuario{
+        width: 358px;
+        height: 51px;
+    }
+
+    .password{
+        width: 358px;
+        height: 51px;
+    }
+
+    .eyePassword{
+        /* top: 31.5%; */
+        right: 10%;;
+    }
+
+    .btnLogin{
+        width: 358px;
+        height: 40px;
+    }
+
+    .btnCreate{
+        width: 358px;
+        height: 40px;
+    }
+}
