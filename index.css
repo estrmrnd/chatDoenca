@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     background-color: #abd1ff;
+    max-width: 57vw;
     width: 57vw;
     height: 100vh;
 }
